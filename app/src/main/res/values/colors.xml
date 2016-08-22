@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cellSeparator">#E9E9E9</color>
+    <color name="LineSeparator">#DFDFDF</color>
+    <color name="cellTitle">#F8FAFC</color>
+    <color name="ListBackground">#F0F0F1</color>
+    <color name="colorWhite">#FFFFFF</color>
+    
+</resources>

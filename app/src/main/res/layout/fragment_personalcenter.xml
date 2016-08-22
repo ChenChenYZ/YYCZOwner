@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="我的车库"
+            android:background="#FFFFFF"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/garage"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:id="@+id/button" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="诊断报告"
+            android:background="#FFFFFF"
+            android:drawableLeft="@mipmap/report"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/button2" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+    <!--我的咨询-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DFDFDF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textSize="18sp"
+                android:text="我的咨询"
+                android:gravity="center_vertical"
+                android:background="@color/cellTitle"
+                android:paddingLeft="@dimen/paddingSize"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DFDFDF" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/myConsultCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.5dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="宝马（进口）-X6 (2015-4.0T)"/>
+
+            <TextView
+                android:id="@+id/myConsultDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myConsultCar"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="问题简单描述"/>
+            <TextView
+                android:id="@+id/myConsultTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myConsultDesc"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="2016-03-07"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+
+    <!--我的预约-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DFDFDF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textSize="18sp"
+                android:text="我的预约"
+                android:gravity="center_vertical"
+                android:background="@color/cellTitle"
+                android:paddingLeft="@dimen/paddingSize"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DFDFDF" />
+        </LinearLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/myReservationCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.5dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="宝马（进口）-X6 (2015-4.0T)"/>
+
+            <TextView
+                android:id="@+id/myReservationDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myReservationCar"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="问题简单描述"/>
+            <TextView
+                android:id="@+id/myReservationTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myReservationDesc"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="2016-03-07"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+
+    <!--维修记录-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DFDFDF" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:textSize="18sp"
+                android:text="维修记录"
+                android:gravity="center_vertical"
+                android:background="@color/cellTitle"
+                android:paddingLeft="@dimen/paddingSize"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DFDFDF" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/myRepairCar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.5dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="宝马（进口）-X6 (2015-4.0T)"/>
+
+            <TextView
+                android:id="@+id/myRepairDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myRepairCar"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="问题简单描述"/>
+            <TextView
+                android:id="@+id/myRepairTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myRepairDesc"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="@dimen/paddingSize"
+                android:text="2016-03-07"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+
+</LinearLayout>
