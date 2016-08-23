@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_settings_cellheight"
+        android:layout_marginTop="@dimen/cell_padding">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择预约点"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/paddingSize"/>
+
+
+        <ImageButton
+            android:id="@+id/imgBtn_choosePlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/paddingSize"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/find"/>
+
+        <TextView
+            android:id="@+id/tv_reservationPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imgBtn_choosePlace"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:text="ceshi"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_settings_cellheight"
+        android:layout_marginTop="@dimen/cell_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择预约时间"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/paddingSize"/>
+
+        <ImageButton
+            android:id="@+id/imgBtn_chooseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/paddingSize"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/find"/>
+
+        <TextView
+            android:id="@+id/tv_reservationTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imgBtn_chooseTime"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp"
+            android:text="ceshi"/>
+
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/btn_reservation"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="预约"/>
+
+</LinearLayout>
