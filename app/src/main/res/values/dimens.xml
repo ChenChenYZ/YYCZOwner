@@ -3,4 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="paddingSize">36dp</dimen>
+    <dimen name="fragment_settings_cellheight">44dp</dimen>
+    <dimen name="cell_padding">8dp</dimen>
 </resources>

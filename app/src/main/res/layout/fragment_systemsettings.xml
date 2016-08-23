@@ -9,9 +9,11 @@
         android:layout_marginTop="8dp"
         android:background="@color/cellSeparator" />
 
+    <!--检查更新按钮块-->
     <RelativeLayout
+        android:id="@+id/settings_btn_update"
         android:layout_width="match_parent"
-        android:layout_height="44dp">
+        android:layout_height="@dimen/fragment_settings_cellheight">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,9 +35,11 @@
         android:layout_height="1dp"
         android:background="@color/LineSeparator" />
 
+    <!--关于按钮块-->
     <RelativeLayout
+        android:id="@+id/settings_btn_about"
         android:layout_width="match_parent"
-        android:layout_height="44dp">
+        android:layout_height="@dimen/fragment_settings_cellheight">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,8 +59,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:layout_marginTop="8dp"
         android:background="@color/cellSeparator" />
+
+    <!--退出登录按钮-->
+    <Button
+        android:id="@+id/settings_btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_settings_cellheight"
+        android:layout_marginTop="@dimen/cell_padding"
+        android:background="@color/colorWhite"
+        android:text="退出登录" />
+
 
 
 </LinearLayout>
